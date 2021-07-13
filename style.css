@@ -8,6 +8,9 @@ body{
 main{
     
 }
+.article-title{
+    color: rgb(11, 11, 31);
+}
 
 
 
@@ -67,16 +70,18 @@ section{
     display: grid;
     grid-template-columns: repeat(2,1fr);
     flex-wrap: wrap;
+    padding: 20px;
+    
 }
 
 .container{
     border-radius: 12px;
-    margin-top: 20px;
+     margin: 10px 0px;
     width: 250px;
     background-color: lavender;
     border: 2px solid rgba(189, 164, 189, 0.555);
-    margin: 0px 20px 30px 20px;
-      
+       
+     padding: 10px; 
     transition: all 0.3s;
 }
 .container:hover{
@@ -96,7 +101,7 @@ section{
     display: flex;
     justify-content: space-between;
 }
-.star-rate .filed{
+.star-rate .filed, .fa-star.filed{
     color: rgb(235, 170, 31);
 
 }
@@ -107,10 +112,15 @@ button{
     border-radius: 13px;
     background-color: rgba(250, 250, 210, 0.548);
     font-weight: 900;
-   
+  
+}
+.button:hover{
+    background-color: rgb(4, 4, 19);
+    border-radius: 13px;
 }
 button a{
     text-decoration: none;
+    margin: 10px;
 }
 /*-------------
  blogs styles
@@ -118,11 +128,11 @@ button a{
  .bloges{
      display: grid;
      grid-template-columns: repeat(2,1fr);
-    column-gap: 10px;
+    column-gap: px;
     row-gap: 15px; 
  }
  .blog{
-     margin-left: 20px;
+     margin: 20px 20px;
      display: flex;
  }
      
@@ -142,3 +152,74 @@ button a{
  .name{
      color: gray;
  }
+ /* -----------
+ courses styles
+ ------------ */
+ hr{
+    margin:20px;
+    background-color: 
+lawngreen;
+}
+ .courses{
+    display:grid;
+    grid-template-columns: repeat(2,1fr);
+    justify-content:
+ space-between;
+}
+ .course{
+    
+    margin: 20px 0 ;
+    width: 240px;
+    border: 1px solid darkgray;
+    padding:20px;
+    margin-left: 
+    5px;
+    border-radius: 15px;
+}
+.course:hover{
+     border: 2px solid rgb(160, 252, 195);
+    box-shadow: 2px 4px 9px rgb(241, 166, 166);;
+}
+.course-subject img{
+    width: 250px;
+ }
+ .course-title{
+     color: rgb(2, 2, 36);
+ }
+ .about-course p{
+     text-align: justify;
+     font-size: 15px;
+ }
+ .course-rate{
+     display: flex;
+     justify-content: space-between;
+     margin-bottom: 20px;
+ }
+ .time{
+     border-radius: 15px;
+     background-color:  #e3f0e1;
+    font-weight: 900;
+     opacity: 0.4;
+     color:  #290a03;
+
+ }
+ button:hover{
+     background-color: rgb(3, 3, 27);
+     color: moccasin;
+ }
+  
+  
+  
+  
+  
+  
+   
+   
+  
+  
+  
+ 
+ 
+ 
+ 
+ 
