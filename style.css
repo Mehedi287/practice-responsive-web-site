@@ -77,7 +77,7 @@ section{
 .container{
     border-radius: 12px;
      margin: 10px 0px;
-    width: 250px;
+    width:80%;
     background-color: lavender;
     border: 2px solid rgba(189, 164, 189, 0.555);
        
@@ -89,9 +89,9 @@ section{
     box-shadow: 2px 4px 9px gainsboro;
 }
 .palyer-image img{
-    width: 200px;
-    height: 200px;
-    margin: 20px 20px; 
+    width:100%;
+    
+     
 }
 .palyer-information{
     margin: 20px 20px;
@@ -207,7 +207,21 @@ lawngreen;
      background-color: rgb(3, 3, 27);
      color: moccasin;
  }
-  
+ /*----------
+  footer syules 
+  ---------*/
+  footer{
+      padding:20px;
+      height: 70px;
+      background-color: rgb(17, 17, 48);
+  }
+  footer p{
+      margin: 20px;
+      margin: 0 auto;
+      width: 600px ;
+    color: palegoldenrod;
+    text-align: center;
+    }
   
   
   
