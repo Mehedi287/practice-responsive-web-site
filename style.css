@@ -1,0 +1,130 @@
+/* google fonts */
+@import url('https://fonts.googleapis.com/css2?family=Source+Serif+Pro&display=swap');
+/* common styles */
+body{
+    font-family: 'Source Serif Pro', serif;
+    background-color: gainsboro;
+}
+main{
+    
+}
+
+
+
+
+
+/*------------- 
+headers styles 
+---------------*/
+/* menu styles */
+.menu-wrap{
+    background-color: #562EFF; 
+}
+.menu{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    width: 600px;
+}
+.navication{
+    display: flex;
+    color: rgb(22, 22, 36);
+}
+.navication a{
+    margin-right: 10px;
+    text-decoration: none;
+    font-weight: bold;
+}
+.nav-icone{
+    display: flex;
+}
+.far{
+    margin-top:15px;
+    width: 25px ;
+    height: auto;
+}
+.fa-user-circle{
+    margin-top: 2px;
+margin-left: 5px;
+}
+/* main styles */
+
+/* top-section palyres styles */
+section{
+    background-color: whitesmoke;
+    width: 600px;
+    margin: 0 auto;
+}
+.article-title{
+    padding: 20px;
+}
+.palyers{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    flex-wrap: wrap;
+}
+
+.container{
+    border-radius: 12px;
+    margin-top: 20px;
+    width: 250px;
+    background-color: lavender;
+    border: 2px solid rgba(189, 164, 189, 0.555);
+    margin: 0px 20px 30px 20px;
+      
+    transition: all 0.3s;
+}
+.container:hover{
+    border: 2px solid lightyellow;
+    box-shadow: 2px 4px 9px gainsboro;
+}
+.palyer-image img{
+    width: 200px;
+    height: 200px;
+    margin: 20px 20px; 
+}
+.palyer-information{
+    margin: 20px 20px;
+    text-align: justify;
+}
+.publice-reating{
+    display: flex;
+    justify-content: space-between;
+}
+.star-rate .filed{
+    color: rgb(235, 170, 31);
+
+}
+.star-rate .blank{
+    color: dimgrey;
+}
+button{
+    border-radius: 13px;
+    background-color: rgba(250, 250, 210, 0.548);
+    font-weight: 900;
+   
+}
+button a{
+    text-decoration: none;
+}
+/*-------------
+ blogs styles
+ -------------*/
+ .bloges{
+     display: grid;
+     grid-template-columns: repeat(2,1fr);
+    column-gap: 10px;
+    row-gap: 15px; 
+ }
+ .blog{
+     margin-left: 20px;
+     display: flex;
+ }
+     
+ .blog-thumblin img{
+ 
+    width: 100px;
+    height: 100px;
+ }
